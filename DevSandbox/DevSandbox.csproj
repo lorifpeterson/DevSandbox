@@ -46,14 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompanyFormatter.cs" />
-    <Compile Include="IgnoreMemberAttribute.cs" />
+    <Compile Include="Models\CIDR.cs" />
+    <Compile Include="Formatters\CompanyFormatter.cs" />
+    <Compile Include="Formatters\IgnoreMemberAttribute.cs" />
     <Compile Include="Models\SampleIni.cs" />
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\SubGroup.cs" />
     <Compile Include="Models\Translation.cs" />
-    <Compile Include="SimpleIniFormatter.cs" />
+    <Compile Include="Formatters\SimpleIniFormatter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\FileUtilities.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
