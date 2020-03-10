@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevSandbox", "DevSandbox\De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevSandbox.Tests", "DevSandbox.Tests\DevSandbox.Tests.csproj", "{084B30D8-E169-4555-B3B4-F2C04DE04474}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{98B8DDCE-B2FB-4D69-BEA5-B5614601046F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\_TFS_VSS\Source\Aardvark\Plugin_US\v4.1\_Build\Microsoft.SharePoint.Client.dll = ..\..\..\..\..\_TFS_VSS\Source\Aardvark\Plugin_US\v4.1\_Build\Microsoft.SharePoint.Client.dll
+		..\..\..\..\..\_TFS_VSS\Source\Aardvark\Plugin_US\v4.1\_Build\Microsoft.SharePoint.Client.Runtime.dll = ..\..\..\..\..\_TFS_VSS\Source\Aardvark\Plugin_US\v4.1\_Build\Microsoft.SharePoint.Client.Runtime.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevSandbox.Sharepoint.Tests", "DevSandbox.Sharepoint.Tests\DevSandbox.Sharepoint.Tests.csproj", "{2D9906D0-5E93-4857-90C2-F856E16519FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,10 @@ Global
 		{084B30D8-E169-4555-B3B4-F2C04DE04474}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{084B30D8-E169-4555-B3B4-F2C04DE04474}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{084B30D8-E169-4555-B3B4-F2C04DE04474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9906D0-5E93-4857-90C2-F856E16519FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9906D0-5E93-4857-90C2-F856E16519FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9906D0-5E93-4857-90C2-F856E16519FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9906D0-5E93-4857-90C2-F856E16519FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
