@@ -11,6 +11,7 @@ namespace DevSandbox.Tests
     [TestClass]
     public class AllowedIPTests
     {
+        //comment
         [TestMethod]
         public void IpIsAllowed()
         {
