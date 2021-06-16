@@ -27,7 +27,6 @@ namespace DevSandbox.Tests
             var result = allowedIps.Any(allowedIp => allowedIp.IsInRange(intAddress));
         }
 
-
     }
 
 }

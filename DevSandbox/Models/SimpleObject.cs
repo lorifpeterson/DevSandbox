@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DevSandbox.Tests
+namespace DevSandbox.Models
 {
     public class SimpleObject
     {
